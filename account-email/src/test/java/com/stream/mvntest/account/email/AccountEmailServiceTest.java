@@ -20,7 +20,7 @@ public class AccountEmailServiceTest {
     @Before
     public void startMailServer() throws Exception{
         greenMail = new GreenMail(ServerSetup.SMTP);
-        greenMail.setUser("weixuerensoft@sina.com","weiXI!@#456");
+        greenMail.setUser("","");
         greenMail.start();
     }
 

@@ -5,5 +5,4 @@ package com.stream.mvntest.account.email;
  */
 public interface AccountEmailService {
     void sendMail(String to, String subject, String emailContext) throws AccountEmailException;
-    void test();
 }
